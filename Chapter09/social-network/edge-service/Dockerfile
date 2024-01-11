@@ -1,4 +1,4 @@
-FROM openjdk:11.0.1-jre-slim-sid
+FROM openjdk:22-ea-29
 
 CMD ["/usr/bin/java", "-jar", "/usr/share/myservice/myservice.jar"]
 
